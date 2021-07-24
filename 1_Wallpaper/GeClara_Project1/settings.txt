@@ -1,0 +1,277 @@
+Wallpaper 1:
+//your parameter variables go here!
+var gridWidth = 250; var gridHeight = 300;
+var xPos = 120;
+var yPos = -120;
+var size = 1;
+var seed = 7;
+var c1 = [45,34,94]; //background upper color
+var c2 = [195,140,190]; //background lower color
+
+//constants calculated from variables //can be changed
+var bodyWr = gridWidth*0.25; var bodyHr = gridHeight*0.32;
+var headWr = bodyWr*0.5; var headHr = bodyHr*0.8;
+var signalWr = gridWidth*0.2; var signalHr = gridHeight*0.1;
+var signalXPos = xPos-gridWidth*0.2; var signalYPos =  yPos-gridHeight*0.45;
+var flying = 1;
+
+
+function setup_wallpaper(pWallpaper) {
+  randomSeed(seed);
+  colorMode(RGB,255,255,255,1);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = gridWidth;
+  pWallpaper.grid_settings.cell_height = gridHeight;
+  pWallpaper.grid_settings.row_offset  = 140;
+}
+
+Wallpaper 2:
+var gridWidth = 250; var gridHeight = 250;
+var xPos = 120;
+var yPos = -100;
+var size = 1.15;
+var seed = 7;
+var c1 = [17,18,85]; //background upper color
+var c2 = [22,135,201]; //background lower color
+
+//constants calculated from variables //can be changed
+var bodyWr = gridWidth*0.2; var bodyHr = gridHeight*0.32;
+var headWr = bodyWr*0.5; var headHr = bodyHr*0.8;
+var signalWr = gridWidth*0.2; var signalHr = gridHeight*0.1;
+var signalXPos = xPos-gridWidth*0.2; var signalYPos =  yPos-gridHeight*0.45;
+var flying = 1;
+
+
+function setup_wallpaper(pWallpaper) {
+  randomSeed(seed);
+  colorMode(RGB,255,255,255,1);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = gridWidth;
+  pWallpaper.grid_settings.cell_height = gridHeight;
+  pWallpaper.grid_settings.row_offset  = 140;
+}
+
+Wallpaper 3:
+//your parameter variables go here!
+var gridWidth = 250; var gridHeight = 250;
+var xPos = 120;
+var yPos = -50;
+var size = 1.15;
+var seed = 7;
+var c1 = [17,18,85]; //background upper color
+var c2 = [22,135,201]; //background lower color
+
+//constants calculated from variables //can be changed
+var bodyWr = gridWidth*0.2; var bodyHr = gridHeight*0.32;
+var headWr = bodyWr*0.5; var headHr = bodyHr*0.8;
+var signalWr = gridWidth*0.2; var signalHr = gridHeight*0.1;
+var signalXPos = xPos-gridWidth*0.2; var signalYPos =  yPos-gridHeight*0.45;
+var flying = 1;
+
+
+function setup_wallpaper(pWallpaper) {
+  randomSeed(seed);
+  colorMode(RGB,255,255,255,1);
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = gridWidth;
+  pWallpaper.grid_settings.cell_height = gridHeight;
+  pWallpaper.grid_settings.row_offset  = 140;
+}
+
+Wallpaper 4:
+//your parameter variables go here!
+var gridWidth = 210; var gridHeight = 200;
+var xPos = 100;
+var yPos = -50;
+var size = 0.8;
+var seed = 68;
+var c1 = [30,100,150]; //background upper color
+var c2 = [61,51,109]; //background lower color
+
+//constants calculated from variables //can be changed
+var bodyWr = gridWidth*0.19; var bodyHr = gridHeight*0.32;
+var headWr = bodyWr*0.5; var headHr = bodyHr*0.8;
+var signalWr = gridWidth*0.25; var signalHr = gridHeight*0.15;
+var signalXPos = xPos-gridWidth*0.2; var signalYPos =  yPos-gridHeight*0.45;
+var flying = 1;
+
+
+function setup_wallpaper(pWallpaper) {
+  randomSeed(seed);
+  colorMode(RGB,255,255,255,1);
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = gridWidth;
+  pWallpaper.grid_settings.cell_height = gridHeight;
+  pWallpaper.grid_settings.row_offset  = 120;
+}
+
+Wallpaper 5:
+//your parameter variables go here!
+var gridWidth = 200; var gridHeight = 200;
+var xPos = 100;
+var yPos = -50;
+var size = 0.8;
+var seed = 7;
+var c1 = [231,187,74]; //background upper color
+var c2 = [0,0,0]; //background lower color
+
+//constants calculated from variables //can be changed
+var bodyWr = gridWidth*0.2; var bodyHr = gridHeight*0.32;
+var headWr = bodyWr*0.5; var headHr = bodyHr*0.8;
+var signalWr = gridWidth*0.2; var signalHr = gridHeight*0.1;
+var signalXPos = xPos-gridWidth*0.2; var signalYPos =  yPos-gridHeight*0.45;
+var flying = 1;
+
+
+function setup_wallpaper(pWallpaper) {
+  randomSeed(seed);
+  colorMode(RGB,255,255,255,1);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = gridWidth;
+  pWallpaper.grid_settings.cell_height = gridHeight;
+  pWallpaper.grid_settings.row_offset  = 100;
+}
+
+Wallpaper 6:
+//your parameter variables go here!
+var gridWidth = 400; var gridHeight = 400;
+var xPos = 200;
+var yPos = -100;
+var size = 0.8;
+var seed = 15;
+var c1 = [231,187,74]; //background upper color
+var c2 = [0,0,0]; //background lower color
+
+//constants calculated from variables //can be changed
+var bodyWr = gridWidth*0.2; var bodyHr = gridHeight*0.32;
+var headWr = bodyWr*0.5; var headHr = bodyHr*0.8;
+var signalWr = gridWidth*0.2; var signalHr = gridHeight*0.1;
+var signalXPos = xPos-gridWidth*0.2; var signalYPos =  yPos-gridHeight*0.45;
+var flying = 1;
+
+
+function setup_wallpaper(pWallpaper) {
+  randomSeed(seed);
+  colorMode(RGB,255,255,255,1);
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = gridWidth;
+  pWallpaper.grid_settings.cell_height = gridHeight;
+  pWallpaper.grid_settings.row_offset  = 200;
+}
+
+Wallpaper 7:
+//your parameter variables go here!
+var gridWidth = 200; var gridHeight = 250;
+var xPos = 100;
+var yPos = -55;
+var size = 0.7;
+var seed = 15;
+var c1 = [45,34,94]; //background upper color
+var c2 = [195,140,190]; //background lower color
+
+//constants calculated from variables //can be changed
+var bodyWr = gridWidth*0.25; var bodyHr = gridHeight*0.32;
+var headWr = bodyWr*0.5; var headHr = bodyHr*0.8;
+var signalWr = gridWidth*0.2; var signalHr = gridHeight*0.1;
+var signalXPos = xPos-gridWidth*0.2; var signalYPos =  yPos-gridHeight*0.45;
+var flying = 1;
+
+
+function setup_wallpaper(pWallpaper) {
+  randomSeed(seed);
+  colorMode(RGB,255,255,255,1);
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = gridWidth;
+  pWallpaper.grid_settings.cell_height = gridHeight;
+  pWallpaper.grid_settings.row_offset  = 100;
+}
+
+Wallpaper 8:
+//your parameter variables go here!
+var gridWidth = 200; var gridHeight = 250;
+var xPos = 100;
+var yPos = -80;
+var size = 0.7;
+var seed = 65;
+var c1 = [0,0,0]; //background upper color
+var c2 = [231,187,74]; //background lower color
+
+//constants calculated from variables //can be changed
+var bodyWr = gridWidth*0.25; var bodyHr = gridHeight*0.32;
+var headWr = bodyWr*0.5; var headHr = bodyHr*0.8;
+var signalWr = gridWidth*0.3; var signalHr = gridHeight*0.2;
+var signalXPos = xPos-gridWidth*0.2; var signalYPos =  yPos-gridHeight*0.45;
+var flying = 1;
+
+
+function setup_wallpaper(pWallpaper) {
+  randomSeed(seed);
+  colorMode(RGB,255,255,255,1);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = gridWidth;
+  pWallpaper.grid_settings.cell_height = gridHeight;
+  pWallpaper.grid_settings.row_offset  = 100;
+}
+
+Wallpaper 9:
+//your parameter variables go here!
+var gridWidth = 200; var gridHeight = 250;
+var xPos = 120;
+var yPos = -80;
+var size = 0.6;
+var seed = 53;
+var c1 = [3, 84, 77]; //background upper color
+var c2 = [44, 3, 84]; //background lower color
+
+//constants calculated from variables //can be changed
+var bodyWr = gridWidth*0.25; var bodyHr = gridHeight*0.32;
+var headWr = bodyWr*0.5; var headHr = bodyHr*0.8;
+var signalWr = gridWidth*0.3; var signalHr = gridHeight*0.2;
+var signalXPos = xPos-gridWidth*0.2; var signalYPos =  yPos-gridHeight*0.45;
+var flying = 1;
+
+
+function setup_wallpaper(pWallpaper) {
+  randomSeed(seed);
+  colorMode(RGB,255,255,255,1);
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = gridWidth;
+  pWallpaper.grid_settings.cell_height = gridHeight;
+  pWallpaper.grid_settings.row_offset  = 0;
+}

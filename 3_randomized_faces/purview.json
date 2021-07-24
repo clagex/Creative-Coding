@@ -1,0 +1,20 @@
+{
+  "commits": [
+    {
+      "sha": "99353118e1528b6f2aa103bf11a1e534e1b96629",
+      "name": "final_version"
+    },
+    {
+      "sha": "5d5e0266238247c1b96f8a0d23c3fa4c103cdc24",
+      "name": "weighted, gaussian, and conditional"
+    },
+    {
+      "sha": "58cd010e88d9fc90267682d02b4aa540af6e79de",
+      "name": "pencil_texture_with_arguments"
+    },
+    {
+      "sha": "3ca81ffd58aa98ede823a008651c923d8e5c9a0d",
+      "name": "early_experiment"
+    }
+  ]
+}
